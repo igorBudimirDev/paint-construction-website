@@ -5,9 +5,9 @@ const Navbar = () => {
   return (
     <div className=" absolute top-0 right-0 left-0 z-10">
       <nav className="flex justify-around static text-sm pt-8 ">
-        <div className="max-w-[150px] flex flex-col items-center">
+        <div className="max-w-[140px] flex flex-col items-center md:max-w-[150px]">
           <img className="max-w-[50%]" src={KosticLogo} alt="" />
-          <span className="logo__span text-white text-[20px]">
+          <span className="logo__span text-white text-[18px] md:text-[20px]">
             Molerski radovi Kostić
           </span>
         </div>
