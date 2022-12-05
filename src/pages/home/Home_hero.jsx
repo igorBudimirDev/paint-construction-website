@@ -1,4 +1,4 @@
-const Home = () => {
+const Home_hero = () => {
   return (
     <div className="hero h-screen max-w-100% bg-[url('./assets/hero-background.png')]">
       <div className="hero__container h-screen max-w-100% flex justify-center items-center bg-overlay-color">
@@ -22,7 +22,7 @@ const Home = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home_hero
