@@ -13,3 +13,8 @@
 .hero__container__content--buttons button {
   transition: 0.3s;
 }
+
+.tehnike__upper--text h4,
+.tehnike__lower--text h4 {
+  font-family: "Caveat", sans-serif;
+}

@@ -1,12 +1,13 @@
 import "./index.css";
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/home/Home";
 import Gallery from "./pages/Gallery";
 import Kontakt from "./pages/Kontakt";
 import Usluge from "./pages/Usluge";
 import ErrorPage from "./pages/ErrorPage";
 import Navbar from "./Navbar";
+
 function App() {
   return (
     <Router>
