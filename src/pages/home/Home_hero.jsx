@@ -4,7 +4,7 @@ const Home_hero = () => {
       <div className="hero__container h-screen max-w-100% flex justify-center items-center bg-overlay-color">
         <div className="hero__container__content flex flex-col justify-center items-center">
           <div className="hero__container__content--headings flex flex-col items-center">
-            <h2 className="pb-4 text-white text-3xl md:text-5xl">
+            <h2 className="pb-4 text-white text-3xl md:text-5xl mobile:text-2xl">
               Molersko-dekorativni radovi
             </h2>
             <h1 className="pb-4 text-white text-7xl font-bold tracking-wide md:text-8xl">
