@@ -3,15 +3,23 @@ import HomeMoto from "./HomeMoto";
 import HomeUsluge from "./HomeUsluge";
 import HomeTehnike from "./HomeTehnike";
 import HomeKontakt from "./HomeKontakt";
+import { motion } from "framer-motion";
 const Home = () => {
   return (
-    <>
-      <HomeHero />
-      <HomeMoto />
-      <HomeUsluge />
-      <HomeTehnike />
-      <HomeKontakt />
-    </>
+    <motion.div
+    initial={{opacity: 0}}
+    animate={{opacity: 1}}
+    transition={{duration: 0.6, ease:"easeInOut"}}
+    exit={{opacity:0}}
+    >
+      <>
+        <HomeHero />
+        <HomeMoto />
+        <HomeUsluge />
+        <HomeTehnike />
+        <HomeKontakt />
+      </>
+    </motion.div>
   );
 };
 
