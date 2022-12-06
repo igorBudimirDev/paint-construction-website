@@ -1,9 +1,22 @@
 import { Link } from "react-router-dom";
 import KosticLogo from "./assets/logo.png";
 import { HiMenu } from "react-icons/hi";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const Navbar = () => {
+  const bodyStyle = document.body.style;
+  const [isLocked, setIsLocked] = useState(bodyStyle.overflow === "hidden");
+
+  useEffect(() => {
+    bodyStyle.overflowY = isLocked ? "hidden" : "auto";
+  });
+
+  let [navMenu, setNavMenu] = useState(false);
+  const handleNav = () => {
+    setNavMenu(!navMenu);
+    setIsLocked(!isLocked);
+  };
+
   return (
     <div className=" absolute top-0 right-0 left-0 z-10">
       <nav className="flex justify-around static text-sm pt-8 ">
@@ -28,9 +41,39 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="w-[30%]block text-black-500 md:hidden">
-          <HiMenu className="text-4xl text-white hover:cursor-pointer" />
+          <HiMenu
+            onClick={handleNav}
+            className="text-4xl text-white hover:cursor-pointer"
+          />
         </div>
       </nav>
+      <div
+        className="navMenu w-[100%] h-screen bg-menu-overlay-color absolute top-0 "
+        style={{
+          display: navMenu ? "flex" : "none",
+        }}
+      >
+        <button
+          onClick={handleNav}
+          className="text-5xl absolute right-20 top-[10%] hover:cursor-pointer"
+        >
+          X
+        </button>
+        <div className="navMenu--links h-screen w-[100%] flex flex-col justify-center items-center gap-10">
+          <Link onClick={handleNav} className="text-4xl" to="/">
+            POČETNA
+          </Link>
+          <Link onClick={handleNav} className="text-4xl" to="/galerija">
+            GALERIJA
+          </Link>
+          <Link onClick={handleNav} className="text-4xl" to="/usluge">
+            USLUGE
+          </Link>
+          <Link onClick={handleNav} className="text-4xl" to="/kontakt">
+            KONTAKT
+          </Link>
+        </div>
+      </div>
     </div>
   );
 };

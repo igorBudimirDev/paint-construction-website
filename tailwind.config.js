@@ -8,10 +8,11 @@ module.exports = {
         "white-overlay-color": "rgba(217, 217, 217, 0.4)",
         "main-green": "rgba(67, 167, 162, 1)",
         "dark-white-overlay-color": "rgba(255, 255, 255, 78%)",
+        "menu-overlay-color": "rgba(255, 255, 255, 85%)",
         "underline-color": "#888888",
       },
       screens: {
-        "mobile": "350px",
+        mobile: "350px",
       },
     },
   },
