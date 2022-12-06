@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import KosticLogo from "./assets/logo.png";
 import { HiMenu } from "react-icons/hi";
+import { useState } from "react";
+
 const Navbar = () => {
   return (
     <div className=" absolute top-0 right-0 left-0 z-10">
@@ -25,8 +27,8 @@ const Navbar = () => {
             Kontakt
           </Link>
         </div>
-        <div className="block text-black-500 md:hidden">
-          <HiMenu />
+        <div className="w-[30%]block text-black-500 md:hidden">
+          <HiMenu className="text-4xl text-white hover:cursor-pointer" />
         </div>
       </nav>
     </div>
