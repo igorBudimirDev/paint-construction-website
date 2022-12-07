@@ -7,10 +7,10 @@ import { motion } from "framer-motion";
 const Home = () => {
   return (
     <motion.div
-    initial={{opacity: 0}}
-    animate={{opacity: 1}}
-    transition={{duration: 0.6, ease:"easeInOut"}}
-    exit={{opacity:0}}
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.3 }}
+      exit={{ opacity: 0 }}
     >
       <>
         <HomeHero />

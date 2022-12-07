@@ -1,6 +1,6 @@
 import { Routes, Route, useLocation } from "react-router-dom";
 import Home from "./pages/home/Home";
-import Gallery from "./pages/Gallery";
+import Galerija from "./pages/Galerija";
 import Kontakt from "./pages/Kontakt";
 import Usluge from "./pages/Usluge";
 import ErrorPage from "./pages/ErrorPage";
@@ -13,7 +13,7 @@ const AnimatedRoutes = () => {
     <AnimatePresence>
       <Routes location={location} key={location.pathname}>
         <Route path="/" element={<Home />} />
-        <Route path="/galerija" element={<Gallery />} />
+        <Route path="/galerija" element={<Galerija />} />
         <Route path="/kontakt" element={<Kontakt />} />
         <Route path="/usluge" element={<Usluge />} />
         <Route path="*" element={<ErrorPage />} />

@@ -22,7 +22,7 @@ const HomeHero = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default HomeHero;

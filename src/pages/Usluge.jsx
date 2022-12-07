@@ -1,9 +1,16 @@
+import { motion } from "framer-motion";
 const Usluge = () => {
   return (
-    <div>
-        <h1>Usluge stranica</h1>
-    </div>
-  )
-}
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.3 }}
+      exit={{ opacity: 0 }}
+      className="bg-black h-[500px]"
+    >
+      <h1>Usluge stranica</h1>
+    </motion.div>
+  );
+};
 
-export default Usluge
+export default Usluge;

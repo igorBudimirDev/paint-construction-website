@@ -18,8 +18,8 @@ const Navbar = () => {
   };
 
   return (
-    <div className=" absolute top-0 right-0 left-0 z-10">
-      <nav className="flex justify-around static text-sm pt-8 ">
+    <div className="absolute top-0 right-0 left-0 z-50">
+      <nav className="flex justify-around static text-sm pt-8">
         <div className="max-w-[140px] flex flex-col items-center md:max-w-[150px]">
           <Link className="flex flex-col items-center" to="/">
             <img className="max-w-[50%]" src={KosticLogo} alt="" />
