@@ -2,7 +2,7 @@ import Istinto1 from "../../assets/istinto_1.png";
 import Sahara1 from "../../assets/sahara_1.png";
 const Home_tehnike = () => {
   return (
-    <div className="container max-w-[100%] flex items-center justify-center">
+    <div className="container max-w-[100%] flex items-center justify-center bg-white">
       <div className="tehnike h-screen flex flex-col justify-center w-[80%] md:gap-9">
         <div className="tehnike__upper flex flex-col items-center justify-around md:items-start md:flex-row">
           <div className="istinto--container sm:w-[60%] md:w-[75%]">
@@ -27,8 +27,8 @@ const Home_tehnike = () => {
             </p>
           </div>
         </div>
-        <div className="tehnike__lower flex flex-col items-center justify-around md:items-center md:flex-row-reverse">
-          <div className="sahara--container sm:w-[60%] md:w-[75%]">
+        <div className="tehnike__lower flex flex-col items-center md:items-center md:flex-row-reverse">
+          <div className="sahara--container sm:w-[60%] md:w-[65%] md:flex md:justify-end">
             <img src={Sahara1} alt="sahara" className="" />
           </div>
           <div className="tehnike__lower--text flex flex-col items-center justify-center ">
