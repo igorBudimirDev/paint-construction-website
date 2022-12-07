@@ -1,6 +1,6 @@
 import { Routes, Route, useLocation } from "react-router-dom";
 import Home from "./pages/home/Home";
-import Galerija from "./pages/Galerija";
+import Galerija from "./pages/gallery/Galerija";
 import Kontakt from "./pages/Kontakt";
 import Usluge from "./pages/Usluge";
 import ErrorPage from "./pages/ErrorPage";
@@ -10,7 +10,7 @@ import { AnimatePresence } from "framer-motion";
 const AnimatedRoutes = () => {
   const location = useLocation();
   return (
-    <AnimatePresence>
+    <AnimatePresence mode="wait">
       <Routes location={location} key={location.pathname}>
         <Route path="/" element={<Home />} />
         <Route path="/galerija" element={<Galerija />} />

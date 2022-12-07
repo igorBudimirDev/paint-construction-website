@@ -7,7 +7,7 @@ import CustomMail from "./assets/gmail-icon.png";
 import CustomPhone from "./assets/phone-call-icon.png";
 const Footer = () => {
   return (
-    <div className="footer bg-dark-gray-color h-[300px] border-t-white border-t flex">
+    <div className="footer bg-dark-gray-color h-[300px] border-t-white border-t flex z-20 mt-auto">
       <div className="footer__content w-[100%] h-[300px] flex flex-col justify-around items-center md:flex-row">
         <div className="footer__content__left pt-2 flex flex-col gap-5">
           <Link className="flex flex-col items-center" to="/">
@@ -39,7 +39,7 @@ const Footer = () => {
         </div>
         <div className="footer__content__right flex items-center md:h-[80%] md:items-end">
           <div className="footer__content__right-icons w-[165px] flex justify-center pb-1 border-b-white border-b gap-2 md:h-[13%]">
-            <a target= "blank" href="">
+            <a target= "blank" href="/">
               <img src={CustomPhone} alt="" />
             </a>
             <a target="blank" href="https://www.instagram.com/molerski_radovi_milenko_kostic/">
@@ -49,7 +49,7 @@ const Footer = () => {
               <img src={CustomFB} alt="" />
             </a>
 
-            <a target="blank" href="">
+            <a target="blank" href="/">
               <img src={CustomMail} alt="" />
             </a>
           </div>
