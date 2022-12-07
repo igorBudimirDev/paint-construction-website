@@ -5,13 +5,14 @@ import {
 } from "react-router-dom";
 import Navbar from "./Navbar";
 import AnimatedRoutes from "./AnimatedRoutes";
-
+import Footer from "./Footer";
 function App() {
   
   return (
     <Router>
       <Navbar />
       <AnimatedRoutes />
+      <Footer/>
     </Router>
   );
 }
