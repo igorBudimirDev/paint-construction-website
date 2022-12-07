@@ -1,7 +1,7 @@
 const HomeHero = () => {
   return (
-    <div className="hero h-screen max-w-100% bg-[url('./assets/hero-background.png')]">
-      <div className="hero__container h-screen max-w-100% flex justify-center items-center bg-overlay-color">
+    <div className="hero h-screen max-w-[100%] bg-[url('./assets/hero-background.png')]">
+      <div className="hero__container h-screen max-w-[100%] flex justify-center items-center bg-overlay-color">
         <div className="hero__container__content flex flex-col justify-center items-center">
           <div className="hero__container__content--headings flex flex-col items-center">
             <h2 className="pb-4 text-white text-3xl md:text-5xl mobile:text-2xl">
