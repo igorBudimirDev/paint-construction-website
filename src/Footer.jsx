@@ -7,7 +7,7 @@ import CustomMail from "./assets/gmail-icon.png";
 import CustomPhone from "./assets/phone-call-icon.png";
 const Footer = () => {
   return (
-    <div className="footer bg-dark-gray-color h-[300px] border-t-white border-t flex z-20 mt-auto">
+    <div className="footer bg-dark-gray-color border-t-white border-t flex z-20 mt-auto">
       <div className="footer__content w-[100%] h-[300px] flex flex-col justify-around items-center md:flex-row">
         <div className="footer__content__left pt-2 flex flex-col gap-5">
           <Link className="flex flex-col items-center" to="/">

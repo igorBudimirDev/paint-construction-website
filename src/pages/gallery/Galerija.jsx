@@ -3,7 +3,7 @@ import GalerijaHeader from "./GalerijaHeader";
 import GalleryContent from "./GalleryContent";
 const Galerija = () => {
   return (
-    <motion.div
+    <motion.div className=""
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.4, ease: "easeOut" }}
