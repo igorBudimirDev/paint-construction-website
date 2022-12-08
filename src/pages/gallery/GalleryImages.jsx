@@ -19,7 +19,8 @@ import Done17 from "../../assets/gallery-assets/done 17.jpg";
 import Done18 from "../../assets/gallery-assets/done 18.jpg";
 import Done19 from "../../assets/gallery-assets/done 19.jpg";
 import Done20 from "../../assets/gallery-assets/done 20.jpg";
-import Done21 from "../../assets/gallery-assets/done 22.jpg";
+import Done21 from "../../assets/gallery-assets/done 21.jpg";
+import Done22 from "../../assets/gallery-assets/done 22.jpg";
 import Done23 from "../../assets/gallery-assets/done 23.jpg";
 import Done24 from "../../assets/gallery-assets/done 24.jpg";
 import Done25 from "../../assets/gallery-assets/done 25.jpg";
@@ -51,7 +52,50 @@ const GalleryImages = () => {
     { id: 1, imgSrc: Done1 },
     { id: 2, imgSrc: Done2 },
     { id: 3, imgSrc: Done3 },
-    { id: 4, imgSrc: Done4 },
+    { id: 5, imgSrc: Done5 },
+    { id: 6, imgSrc: Done6 },
+    { id: 7, imgSrc: Done7 },
+    { id: 8, imgSrc: Done8 },
+    { id: 9, imgSrc: Done9 },
+    { id: 10, imgSrc: Done10 },
+    { id: 11, imgSrc: Done11 },
+    { id: 12, imgSrc: Done12 },
+    { id: 13, imgSrc: Done13 },
+    { id: 14, imgSrc: Done14 },
+    { id: 15, imgSrc: Done15 },
+    { id: 16, imgSrc: Done16 },
+    { id: 17, imgSrc: Done17 },
+    { id: 18, imgSrc: Done18 },
+    { id: 19, imgSrc: Done19 },
+    { id: 20, imgSrc: Done20 },
+    { id: 21, imgSrc: Done21 },
+    { id: 22, imgSrc: Done22 },
+    { id: 23, imgSrc: Done23 },
+    { id: 24, imgSrc: Done24 },
+    { id: 25, imgSrc: Done25 },
+    { id: 26, imgSrc: Done26 },
+    { id: 28, imgSrc: Done28 },
+    { id: 29, imgSrc: Done29 },
+    { id: 30, imgSrc: Done30 },
+    { id: 31, imgSrc: Done31 },
+    { id: 33, imgSrc: Done33 },
+    { id: 34, imgSrc: Done34 },
+    { id: 35, imgSrc: Done35 },
+    { id: 36, imgSrc: Done36 },
+    { id: 37, imgSrc: Done37 },
+    { id: 38, imgSrc: Done38 },
+    { id: 39, imgSrc: Done39 },
+    { id: 40, imgSrc: Done40 },
+    { id: 41, imgSrc: Done41 },
+    { id: 42, imgSrc: Done42 },
+    { id: 43, imgSrc: Done43 },
+    { id: 44, imgSrc: Done44 },
+    { id: 45, imgSrc: Done45 },
+    { id: 46, imgSrc: Done46 },
+    { id: 48, imgSrc: Done48 },
+    { id: 39, imgSrc: Done49 },
+    { id: 50, imgSrc: Done50 },
+    { id: 70, imgSrc: Done70 },
   ];
   return (
     <ul className="gallery__images">
