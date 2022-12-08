@@ -1,3 +1,4 @@
+import { useState } from "react";
 import "./gallery.css";
 import Done1 from "../../assets/gallery-assets/done 1.jpg";
 import Done2 from "../../assets/gallery-assets/done 2.jpg";
@@ -47,11 +48,13 @@ import Done48 from "../../assets/gallery-assets/done 48.jpg";
 import Done49 from "../../assets/gallery-assets/done 49.jpg";
 import Done50 from "../../assets/gallery-assets/done 50.jpg";
 import Done70 from "../../assets/gallery-assets/done 70.jpg";
+import { AiOutlineClose } from "react-icons/ai";
 const GalleryImages = () => {
   let data = [
     { id: 1, imgSrc: Done1 },
     { id: 2, imgSrc: Done2 },
     { id: 3, imgSrc: Done3 },
+    { id: 4, imgSrc: Done4 },
     { id: 5, imgSrc: Done5 },
     { id: 6, imgSrc: Done6 },
     { id: 7, imgSrc: Done7 },
@@ -97,16 +100,28 @@ const GalleryImages = () => {
     { id: 50, imgSrc: Done50 },
     { id: 70, imgSrc: Done70 },
   ];
+  const [model, setModel] = useState(false);
+  const [tempImgSrc, setTempImgSrc] = useState("");
+  const getImg = (imgSrc) => {
+    setTempImgSrc(imgSrc);
+    setModel(true);
+  };
   return (
-    <ul className="gallery__images">
-      {data.map((img, index) => {
-        return (
-          <div className="images" key={index}>
-            <img src={img.imgSrc} alt="" />
-          </div>
-        );
-      })}
-    </ul>
+    <>
+      <div className={model ? "model open" : "model"}>
+        <img src={tempImgSrc} alt="" />
+        <AiOutlineClose onClick={() => setModel(false)} />
+      </div>
+      <ul className="gallery__images">
+        {data.map((img, index) => {
+          return (
+            <div className="images" key={index}>
+              <img src={img.imgSrc} alt="" onClick={() => getImg(img.imgSrc)} />
+            </div>
+          );
+        })}
+      </ul>
+    </>
   );
 };
 
