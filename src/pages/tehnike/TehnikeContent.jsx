@@ -9,11 +9,11 @@ import SaharaImg from "./tehnike-assets/sahara.png";
 
 const TehnikeContent = () => {
   return (
-    <div className="tehnike__content bg-dark-gray-color flex flex-col items-center">
-      <div className="tehnike__content__1 pb-10 flex flex-col">
+    <div className="tehnike__content bg-dark-gray-color py-11 flex flex-col gap-10 items-center">
+      <div className="tehnike__content__1 pb-11 flex flex-col">
         <h2 className="text-6xl pb-10 text-white font-light">BETON TEHNIKA</h2>
         <div>
-          <img src={BetonImg} alt="" className="pb-5" />
+          <img src={BetonImg} alt="" className="pb-10" />
         </div>
         <p className="text-white text-2xl font-light">
           Beton efekat je jako popularna dekorativna <br />
@@ -23,7 +23,7 @@ const TehnikeContent = () => {
         </p>
       </div>
 
-      <div className="tehnike__content__2 flex w-[1022px] justify-between items-center">
+      <div className="tehnike__content__2 flex w-[1022px] pb-11 justify-between items-center">
         <div className="tehnike_-content__2--imgdiv">
           <h2 className="text-6xl pb-10 text-white font-light">SAHARA</h2>
           <img src={SaharaImg} alt="" />
@@ -42,7 +42,7 @@ const TehnikeContent = () => {
         </p>
       </div>
 
-      <div className="tehnike__content__3 pb-10 flex flex-col">
+      <div className="tehnike__content__3 pb-11 flex flex-col">
         <h2 className="text-6xl pb-10 text-white font-light">ISTINTO</h2>
         <div>
           <img src={IstintoImg} alt="" className="pb-5" />
@@ -58,7 +58,7 @@ const TehnikeContent = () => {
         </p>
       </div>
 
-      <div className="tehnike__content__3 flex w-[1022px] flex-row-reverse justify-between items-center">
+      <div className="tehnike__content__3 flex w-[1022px] pb-11 flex-row-reverse justify-between items-center">
         <div className="tehnike_-content__3--imgdiv">
           <h2 className="text-6xl pb-10 text-white font-light">CALCE CRUDA</h2>
           <img src={CalceImg} alt="" />
@@ -73,7 +73,7 @@ const TehnikeContent = () => {
         </p>
       </div>
 
-      <div className="tehnike__content__4 flex w-[1022px] justify-between items-center">
+      <div className="tehnike__content__4 flex w-[1022px] pb-11 justify-between items-center">
         <div className="tehnike_-content__4--imgdiv">
           <h2 className="text-6xl pb-10 text-white font-light">OCEANO</h2>
           <img src={OceanoIng} alt="" />
@@ -86,7 +86,7 @@ const TehnikeContent = () => {
         </p>
       </div>
 
-      <div className="tehnike__content__5 flex w-[1022px] flex-row-reverse justify-between items-center">
+      <div className="tehnike__content__5 flex w-[1022px] pb-11 flex-row-reverse justify-between items-center">
         <div className="tehnike_-content__5--imgdiv">
           <h2 className="text-6xl pb-10 text-white font-light">OTTOCENTO</h2>
           <img src={OttocentoImg} alt="" />
@@ -102,6 +102,32 @@ const TehnikeContent = () => {
           tehnologijom i garantuje <br />
           trajnost.
         </p>
+      </div>
+
+      <div className="tehnike__content__6 pb-10 flex flex-col">
+        <h2 className="text-6xl pb-10 text-white text-right font-light">HOBLIO</h2>
+        <div>
+          <img src={HoblioImg} alt="" className="pb-5" />
+        </div>
+        <p className="text-white text-2xl font-light">
+          Hoblio je posebno prijatan <br />
+          dekorativni materijal za <br />
+          unutrašnju dekoraciju iz <br />
+          Antiche Terre Fiorentine linije, <br />
+          razvijen da bi zidovi Vašeg <br />
+          prostora dobili prijatan i <br />
+          šarmantan izgled. On <br />
+          kombinuje lepotu i trajnost <br />
+          zida koji treba da opstane <br /> tokom godina.
+        </p>
+      </div>
+
+
+      <div className="tehnike__content__7 pb-10 flex flex-col">
+        <h2 className="text-6xl pb-10 text-white text-right font-light">DEKORATIVNE LAJSNE</h2>
+        <div>
+          <img src={LajsneImg} alt="" className="pb-5" />
+        </div>
       </div>
     </div>
   );
