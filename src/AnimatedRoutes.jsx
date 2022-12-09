@@ -13,8 +13,8 @@ const AnimatedRoutes = () => {
     <AnimatePresence mode="wait">
       <Routes location={location} key={location.pathname}>
         <Route path="/" element={<Home />} />
-        <Route path="/galerija" element={<Galerija />} />
         <Route path="/tehnike" element={<Tehnike />} />
+        <Route path="/galerija" element={<Galerija />} />
         <Route path="/kontakt" element={<Kontakt />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>

@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import KosticLogo from "./assets/logo.png";
 import { HiMenu } from "react-icons/hi";
 import { useState, useEffect } from "react";
-
 const Navbar = () => {
   const bodyStyle = document.body.style;
   const [isLocked, setIsLocked] = useState(bodyStyle.overflow === "hidden");
@@ -16,7 +15,6 @@ const Navbar = () => {
     setNavMenu(!navMenu);
     setIsLocked(!isLocked);
   };
-
   return (
     <div className="absolute top-0 right-0 left-0 z-50">
       <nav className="flex justify-around static text-sm pt-8">
@@ -32,16 +30,13 @@ const Navbar = () => {
           <Link className="mx-[7px] text-[15px] text-white" to="/">
             Početna
           </Link>
+          <Link className="mx-[7px] text-[15px] text-white" to="/tehnike">
+            Tehnike
+          </Link>
           <Link className="mx-[7px] text-[15px] text-white" to="/galerija">
             Galerija
           </Link>
-          <Link
-            className="mx-[7px] text-[15px] text-white"
-            to="/tehnike"
-            
-          >
-            Tehnike
-          </Link>
+
           <Link className="mx-[7px] text-[15px] text-white" to="/kontakt">
             Kontakt
           </Link>
@@ -54,7 +49,7 @@ const Navbar = () => {
         </div>
       </nav>
       <div
-        className="navMenu w-[100%] h-screen bg-menu-overlay-color absolute top-0 "
+        className="navMenu w-[100%] h-screen bg-menu-overlay-color absolute top-0"
         style={{
           display: navMenu ? "flex" : "none",
         }}
@@ -69,11 +64,11 @@ const Navbar = () => {
           <Link onClick={handleNav} className="text-4xl" to="/">
             POČETNA
           </Link>
+          <Link onClick={handleNav} className="text-4xl" to="/tehnike">
+            TEHNIKE
+          </Link>
           <Link onClick={handleNav} className="text-4xl" to="/galerija">
             GALERIJA
-          </Link>
-          <Link onClick={handleNav} className="text-4xl" to="/usluge">
-            USLUGE
           </Link>
           <Link onClick={handleNav} className="text-4xl" to="/kontakt">
             KONTAKT
