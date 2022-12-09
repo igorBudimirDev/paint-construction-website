@@ -19,8 +19,8 @@ const Footer = () => {
             <Link to="/galerija" className="text-md text-white">
               Galerija
             </Link>
-            <Link to="/usluge" className="text-md text-white">
-              Usluge
+            <Link to="/tehnike" className="text-md text-white">
+              Tehnike
             </Link>
           </div>
         </div>
