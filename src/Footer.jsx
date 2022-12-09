@@ -35,8 +35,8 @@ const Footer = () => {
         </div>
         <div className="footer__content__right flex items-center md:h-[80%] md:items-end">
           <div className="footer__content__right-icons w-[140px] flex justify-center pb-1 border-b-white border-b gap-2 md:h-[13%]">
-            <a target="blank" href="/">
-              <img href="tel:+381632748948" src={CustomPhone} alt="" />
+            <a target="blank" href="tel:+381632748948">
+              <img src={CustomPhone} alt="" />
             </a>
             <a
               target="blank"
