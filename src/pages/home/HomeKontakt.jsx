@@ -4,8 +4,8 @@ import { MdEmail } from "react-icons/md";
 const Home_kontakt = () => {
   return (
     <div className="kontakt h-screen bg-dark-gray-color flex justify-center items-center ">
-      <div className="kontakt__wrapper h-[70%] w-[80%] bg-white-overlay-color pl-10 flex justify-center">
-        <div className="h-[80%]">
+      <div className="kontakt__wrapper h-[70%] bg-white-overlay-color px-10 flex justify-center">
+        <div className="h-[80%] w-[100%] flex items-center flex-col">
           <h3 className="pt-10 pb-20 text-center text-2xl font-light md:text-4xl md:pl-[20px] mobile:text-xl mobile:pb-5">
             Kontakt informacije
           </h3>
