@@ -1,7 +1,6 @@
 import React from "react";
 import KosticLogo from "./assets/logo.png";
 import { Link } from "react-router-dom";
-import CustomFB from "./assets/facebook-icon.png";
 import CustomIG from "./assets/instagram-icon.png";
 import CustomMail from "./assets/gmail-icon.png";
 import CustomPhone from "./assets/phone-call-icon.png";
@@ -23,9 +22,6 @@ const Footer = () => {
             <Link to="/usluge" className="text-md text-white">
               Usluge
             </Link>
-            <Link to="/kontakt" className="text-md text-white">
-              Kontakt
-            </Link>
           </div>
         </div>
         <div className="footer__content__middle pb-10 flex flex-col justify-end items-center md:h-[100%]">
@@ -38,15 +34,15 @@ const Footer = () => {
           </span>
         </div>
         <div className="footer__content__right flex items-center md:h-[80%] md:items-end">
-          <div className="footer__content__right-icons w-[165px] flex justify-center pb-1 border-b-white border-b gap-2 md:h-[13%]">
-            <a target= "blank" href="/">
+          <div className="footer__content__right-icons w-[140px] flex justify-center pb-1 border-b-white border-b gap-2 md:h-[13%]">
+            <a target="blank" href="/">
               <img src={CustomPhone} alt="" />
             </a>
-            <a target="blank" href="https://www.instagram.com/molerski_radovi_milenko_kostic/">
+            <a
+              target="blank"
+              href="https://www.instagram.com/molerski_radovi_milenko_kostic/"
+            >
               <img src={CustomIG} alt="" />
-            </a>
-            <a target="blank" href="https://www.facebook.com/mile26a">
-              <img src={CustomFB} alt="" />
             </a>
 
             <a target="blank" href="/">

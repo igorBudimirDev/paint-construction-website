@@ -37,9 +37,6 @@ const Navbar = () => {
             Galerija
           </Link>
 
-          <Link className="mx-[7px] text-[15px] text-white" to="/kontakt">
-            Kontakt
-          </Link>
         </div>
         <div className="w-[30%]block text-black-500 md:hidden">
           <HiMenu
@@ -69,9 +66,6 @@ const Navbar = () => {
           </Link>
           <Link onClick={handleNav} className="text-4xl" to="/galerija">
             GALERIJA
-          </Link>
-          <Link onClick={handleNav} className="text-4xl" to="/kontakt">
-            KONTAKT
           </Link>
         </div>
       </div>

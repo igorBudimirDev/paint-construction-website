@@ -58,7 +58,7 @@ const TehnikeContent = () => {
         </p>
       </div>
 
-      <div className="tehnike__content__3 flex max-w-[1022px] pb-11 flex-col justify-between items-center md:flex-row-reverse">
+      <div className="tehnike__content__3 flex max-w-[1022px] pb-11 flex-col justify-between items-center gap-10 md:flex-row-reverse">
         <div className="tehnike_-content__3--imgdiv">
           <h2 className="text-3xl pb-10 text-white text-center font-light md:text-left md:text-4xl lg:text-6xl">CALCE CRUDA</h2>
           <img src={CalceImg} alt="" />
@@ -73,7 +73,7 @@ const TehnikeContent = () => {
         </p>
       </div>
 
-      <div className="tehnike__content__4 flex max-w-[1022px] pb-11 flex-col justify-between items-center md:flex-row">
+      <div className="tehnike__content__4 flex max-w-[1022px] pb-11 flex-col justify-between items-center gap-10 md:flex-row">
         <div className="tehnike_-content__4--imgdiv">
           <h2 className="text-3xl pb-10 text-white text-center font-light md:text-4xl md:text-left lg:text-6xl">OCEANO</h2>
           <img src={OceanoIng} alt="" />
@@ -86,7 +86,7 @@ const TehnikeContent = () => {
         </p>
       </div>
 
-      <div className="tehnike__content__5 flex max-w-[1022px] pb-11 flex-col justify-between items-center md:flex-row-reverse">
+      <div className="tehnike__content__5 flex max-w-[1022px] pb-11 flex-col justify-between items-center gap-10 md:flex-row-reverse">
         <div className="tehnike_-content__5--imgdiv">
           <h2 className="text-3xl pb-10 text-white font-light text-center md:text-left md:text-4xl lg:text-6xl">OTTOCENTO</h2>
           <img src={OttocentoImg} alt="" />

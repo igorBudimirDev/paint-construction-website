@@ -1,3 +1,4 @@
+import { useState } from "react";
 const HomeHero = () => {
   const scrollToSection = () => {
     const uslugeItem = document.getElementsByClassName("usluge");
@@ -17,9 +18,11 @@ const HomeHero = () => {
             </h1>
           </div>
           <div className="hero__container__content--buttons flex gap-6 md:flex-row md:gap-6">
-            <button className="w-[120px] px-3 py-1 mx-1 border-solid border-white border-2 text-[20px] text-white hover:bg-white-overlay-color hover:text-black">
+            <button className="w-[120px] px-3 py-1 mx-1 border-solid border-white border-2 text-[20px] text-white hover:bg-white-overlay-color hover:text-black"
+            >
               Kontakt
             </button>
+  
             <button
               className="w-[120px] px-3 py-1 mx-1 border-solid border-white border-2 text-[20px] text-white hover:bg-white-overlay-color hover:text-black"
               onClick={scrollToSection}
