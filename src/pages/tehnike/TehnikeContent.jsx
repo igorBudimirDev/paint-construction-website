@@ -11,11 +11,11 @@ const TehnikeContent = () => {
   return (
     <div className="tehnike__content bg-dark-gray-color py-11 flex flex-col gap-10 items-center">
       <div className="tehnike__content__1 pb-11 flex flex-col">
-        <h2 className="text-6xl pb-10 text-white font-light">BETON TEHNIKA</h2>
+        <h2 className="text-3xl pb-10 text-white text-center font-light md:text-left md:text-4xl lg:text-6xl">BETON TEHNIKA</h2>
         <div>
           <img src={BetonImg} alt="" className="pb-10" />
         </div>
-        <p className="text-white text-2xl font-light">
+        <p className="text-white text-xl font-light text-center md:text-left md:text-2xl">
           Beton efekat je jako popularna dekorativna <br />
           tehnika današnjice.Pomoću palete svih <br />
           nijansi možete stvoriti moderan izgled
@@ -23,12 +23,12 @@ const TehnikeContent = () => {
         </p>
       </div>
 
-      <div className="tehnike__content__2 flex w-[1022px] pb-11 justify-between items-center">
+      <div className="tehnike__content__2 flex  pb-11 flex-col justify-between items-center md:flex-row md:w-[100%] lg:max-w-[1022px]">
         <div className="tehnike_-content__2--imgdiv">
-          <h2 className="text-6xl pb-10 text-white font-light">SAHARA</h2>
+          <h2 className="text-3xl pb-10 text-white text-center font-light md:text-left md:text-4xl lg:text-6xl">SAHARA</h2>
           <img src={SaharaImg} alt="" />
         </div>
-        <p className="text-white text-2xl font-light">
+        <p className="text-white text-xl text-center font-light md:text-left md:text-2xl">
           Sahara je namenjena za <br />
           zaštitu i dekoraciju <br />
           unutrašnjih zidnih <br />
@@ -43,11 +43,11 @@ const TehnikeContent = () => {
       </div>
 
       <div className="tehnike__content__3 pb-11 flex flex-col">
-        <h2 className="text-6xl pb-10 text-white font-light">ISTINTO</h2>
+        <h2 className="text-3xl pb-10 text-white text-center font-light md:text-left md:text-4xl lg:text-6xl">ISTINTO</h2>
         <div>
           <img src={IstintoImg} alt="" className="pb-5" />
         </div>
-        <p className="text-white text-2xl font-light">
+        <p className="text-white text-xl text-center font-light md:text-2xl md:text-left">
           Dekorativni materijal Istinto predstavlja jedinstvo <br />
           između prirode, arhitekture i dizajna, a svaki zid <br />
           pretvara u unikatno umetničko delo. Ovaj proizvod na <br />
@@ -58,12 +58,12 @@ const TehnikeContent = () => {
         </p>
       </div>
 
-      <div className="tehnike__content__3 flex w-[1022px] pb-11 flex-row-reverse justify-between items-center">
+      <div className="tehnike__content__3 flex max-w-[1022px] pb-11 flex-col justify-between items-center md:flex-row-reverse">
         <div className="tehnike_-content__3--imgdiv">
-          <h2 className="text-6xl pb-10 text-white font-light">CALCE CRUDA</h2>
+          <h2 className="text-3xl pb-10 text-white text-center font-light md:text-left md:text-4xl lg:text-6xl">CALCE CRUDA</h2>
           <img src={CalceImg} alt="" />
         </div>
-        <p className="text-white text-2xl font-light">
+        <p className="text-white text-xl font-light text-center md:text-2xl md:text-left">
           Calce cruda je porozan <br />
           dekorativni premaz sa veoma <br />
           prirodnim osećajem.Formulisan <br />
@@ -73,12 +73,12 @@ const TehnikeContent = () => {
         </p>
       </div>
 
-      <div className="tehnike__content__4 flex w-[1022px] pb-11 justify-between items-center">
+      <div className="tehnike__content__4 flex max-w-[1022px] pb-11 flex-col justify-between items-center md:flex-row">
         <div className="tehnike_-content__4--imgdiv">
-          <h2 className="text-6xl pb-10 text-white font-light">OCEANO</h2>
+          <h2 className="text-3xl pb-10 text-white text-center font-light md:text-4xl md:text-left lg:text-6xl">OCEANO</h2>
           <img src={OceanoIng} alt="" />
         </div>
-        <p className="text-white text-2xl font-light">
+        <p className="text-white text-xl font-light text-center md:text-2xl md:text-left">
           Tehnika oceano nam pruža <br />
           osećaj plutanja morskim <br />
           talasima, što je čini jednom od <br />
@@ -86,12 +86,12 @@ const TehnikeContent = () => {
         </p>
       </div>
 
-      <div className="tehnike__content__5 flex w-[1022px] pb-11 flex-row-reverse justify-between items-center">
+      <div className="tehnike__content__5 flex max-w-[1022px] pb-11 flex-col justify-between items-center md:flex-row-reverse">
         <div className="tehnike_-content__5--imgdiv">
-          <h2 className="text-6xl pb-10 text-white font-light">OTTOCENTO</h2>
+          <h2 className="text-3xl pb-10 text-white font-light text-center md:text-left md:text-4xl lg:text-6xl">OTTOCENTO</h2>
           <img src={OttocentoImg} alt="" />
         </div>
-        <p className="text-white text-2xl font-light">
+        <p className="text-white text-xl font-light text-center md:text-2xl md:text-left">
           Ottocento je boja na vodenoj <br />
           bazi, za zidove za unutrašnju <br />
           dekorativnu upotrebu.Posebno <br />
@@ -105,11 +105,11 @@ const TehnikeContent = () => {
       </div>
 
       <div className="tehnike__content__6 pb-10 flex flex-col">
-        <h2 className="text-6xl pb-10 text-white text-right font-light">HOBLIO</h2>
+        <h2 className="text-3xl pb-10 text-white text-center font-light md:text-4xl md:text-right lg:text-6xl">HOBLIO</h2>
         <div>
           <img src={HoblioImg} alt="" className="pb-5" />
         </div>
-        <p className="text-white text-2xl font-light">
+        <p className="text-white text-xl font-light text-center md:text-left md:text-xl">
           Hoblio je posebno prijatan <br />
           dekorativni materijal za <br />
           unutrašnju dekoraciju iz <br />
@@ -124,7 +124,7 @@ const TehnikeContent = () => {
 
 
       <div className="tehnike__content__7 pb-10 flex flex-col">
-        <h2 className="text-6xl pb-10 text-white text-right font-light">DEKORATIVNE LAJSNE</h2>
+        <h2 className="text-3xl pb-10 text-white text-center font-light md:text-4xl md:text-right lg:text-6xl">DEKORATIVNE LAJSNE</h2>
         <div>
           <img src={LajsneImg} alt="" className="pb-5" />
         </div>
