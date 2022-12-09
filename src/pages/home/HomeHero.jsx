@@ -1,4 +1,9 @@
 const HomeHero = () => {
+  const scrollToSection = () => {
+    const uslugeItem = document.getElementsByClassName("usluge");
+    console.warn(uslugeItem[0]);
+    uslugeItem[0].scrollIntoView();
+  };
   return (
     <div className="hero bg-[url('./assets/hero-background.png')]">
       <div className="hero__container h-screen flex justify-center items-center bg-overlay-color">
@@ -15,7 +20,10 @@ const HomeHero = () => {
             <button className="w-[120px] px-3 py-1 mx-1 border-solid border-white border-2 text-[20px] text-white hover:bg-white-overlay-color hover:text-black">
               Kontakt
             </button>
-            <button className="w-[120px] px-3 py-1 mx-1 border-solid border-white border-2 text-[20px] text-white hover:bg-white-overlay-color hover:text-black">
+            <button
+              className="w-[120px] px-3 py-1 mx-1 border-solid border-white border-2 text-[20px] text-white hover:bg-white-overlay-color hover:text-black"
+              onClick={scrollToSection}
+            >
               Usluge
             </button>
           </div>

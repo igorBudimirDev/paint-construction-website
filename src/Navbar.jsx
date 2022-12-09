@@ -16,11 +16,7 @@ const Navbar = () => {
     setNavMenu(!navMenu);
     setIsLocked(!isLocked);
   };
-  const scrollToSection = () => {
-    const uslugeItem = document.getElementsByClassName("usluge");
-    console.warn(uslugeItem[0]);
-    uslugeItem[0].scrollIntoView();
-  };
+
   return (
     <div className="absolute top-0 right-0 left-0 z-50">
       <nav className="flex justify-around static text-sm pt-8">
@@ -41,10 +37,10 @@ const Navbar = () => {
           </Link>
           <Link
             className="mx-[7px] text-[15px] text-white"
-            to=""
-            onClick={scrollToSection}
+            to="/tehnike"
+            
           >
-            Usluge
+            Tehnike
           </Link>
           <Link className="mx-[7px] text-[15px] text-white" to="/kontakt">
             Kontakt

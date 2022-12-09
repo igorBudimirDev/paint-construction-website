@@ -30,3 +30,6 @@ body {
 .tehnike__lower--text h4 {
   font-family: "Caveat", sans-serif;
 }
+.tehnike__hero--container--video video {
+  border-radius: 10px;
+}
