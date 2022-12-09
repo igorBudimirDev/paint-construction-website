@@ -11,8 +11,8 @@ const Home_usluge = () => {
                 <span className="w-[100%] md:px-10 font-bold md:border-b text-sm md:border-b-underline-color lg:text-xl">IZRADA DEKORATIVNIH RADOVA SA DOMAĆIM I STRANIM MATERIJALIMA</span> <br />
                 <span className="w-[100%] md:px-10 font-bold md:border-b text-sm md:border-b-underline-color lg:text-xl">GLETOVANJE POD RASVETOM</span> <br />
                 <span className="w-[100%] md:px-10 font-bold md:border-b text-sm md:border-b-underline-color lg:text-xl">KREČENJE AKRILNIM BOJAMA OIKOS, VITEX, TIKURILA, MAXIMA, CASSATI</span> <br />
-                <span className="w-[100%] md:px-10 font-bold md:border-b text-sm md:border-b-underline-color lg:text-xl">ZAŠTITA PROZORA PRED POČETAK RADOVA</span> <br />
-                <span className="w-[100%] md:px-10 font-bold md:border-b text-sm md:border-b-underline-color lg:text-xl">POPRAVKA TAPETA</span> <br />
+                <span className="w-[100%] md:px-10 font-bold md:border-b text-sm md:border-b-underline-color lg:text-xl">ZAŠTITA PROSTORA PRED POČETAK RADOVA</span> <br />
+                <span className="w-[100%] md:px-10 font-bold md:border-b text-sm md:border-b-underline-color lg:text-xl">POSTAVKA TAPETA</span> <br />
                 <span className="w-[100%] md:px-10 font-bold md:border-b text-sm md:border-b-underline-color lg:text-xl">KRPLJENJE, ISPRAVLJANJE ZIDOVA MAŠINSKIM MALTERIMA</span> <br />
               </div>
               <div className="cene-content-add flex flex-col items-center h-[100%] md:w-[40%] justify-around">
@@ -20,7 +20,7 @@ const Home_usluge = () => {
                 <div className="cene-content-add-main h-[100%] flex flex-col justify-center gap-5">
                 <span className="w-[100%] font-bold text-center lg:text-xl mobile:px-[10px]">ELEKTROINSTALACIJE</span> <br />
                 <span className="w-[100%] font-bold text-center lg:text-xl mobile:px-[10px]">GIPSANI RADOVI</span> <br />
-                <span className="w-[100%] font-bold text-center lg:text-xl mobile:px-[10px]">HIDROINSTALACIJE</span> <br />
+                <span className="w-[100%] font-bold text-center lg:text-xl mobile:px-[10px]">VODOINSTALATERSKE USLUGE</span> <br />
                 <span className="w-[100%] font-bold text-center lg:text-xl mobile:px-[10px]">KERAMIKA</span> <br />
                 </div>
                 </div>
