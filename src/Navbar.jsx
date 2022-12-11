@@ -50,7 +50,7 @@ const Navbar = () => {
               <BsTelephoneFill className="nav-phone text-xl text-main-green hover:text-white" />
             </a>
             <a href="tel:+381632748948"></a>
-            <span className="mt-2 md:mt-0 md:ml-5 md:text-sm font-light">
+            <span className="mt-2 md:mt-0 md:ml-5 text-white md:text-sm font-light">
               063/274-89-48
             </span>
           </div>
@@ -62,7 +62,7 @@ const Navbar = () => {
             <a href="https://www.instagram.com/molerski_radovi_milenko_kostic/">
               {" "}
             </a>
-            <span className="text-[1em] sm:text-2xl mt-2 md:mt-0 md:ml-5 md:text-sm font-light">
+            <span className="text-[1em] sm:text-2xl mt-2 md:mt-0 md:ml-5 text-white md:text-sm font-light">
               @molerski.radovi.kostic
             </span>{" "}
           </div>
@@ -70,7 +70,7 @@ const Navbar = () => {
             <a href="mailto:mile26a@gmail.com">
               <MdEmail className="nav-mail text-xl text-[#bb001b] hover:text-white" />
             </a>
-            <span className="text-[1em] sm:text-2xl mt-2 md:mt-0 md:ml-5 md:text-sm font-light">
+            <span className="text-[1em] sm:text-2xl mt-2 md:mt-0 md:ml-5 text-white md:text-sm font-light">
               mile26a@gmail.com
             </span>
           </div>
