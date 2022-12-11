@@ -30,7 +30,7 @@ const Footer = () => {
             2022
           </span>
           <span className=" text-center text-[12px] font-extralight text-white md:text-sm">
-            Web Design & Dev by <a href="mailto:igor.budimir.dev@gmail.com" className="text-main-green border-b">Igor</a>
+            Web Design & Dev by <a href="mailto:igor.budimir.dev@gmail.com" className="text-red-600 border-b border-red-600">Igor</a>
           </span>
         </div>
         <div className="footer__content__right flex items-center md:h-[80%] md:items-end">

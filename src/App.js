@@ -1,5 +1,6 @@
 import "./index.css";
 import React from "react";
+import ScrollToTop from "./ScrollToTop";
 import {
   BrowserRouter as Router,
 } from "react-router-dom";
@@ -11,6 +12,7 @@ function App() {
   return (
     <Router className="router">
       <Navbar />
+      <ScrollToTop />
       <AnimatedRoutes />
       <Footer/>
     </Router>

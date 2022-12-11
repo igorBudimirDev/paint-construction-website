@@ -91,7 +91,7 @@ const Navbar = () => {
         <div className="w-[30%] text-black-500 flex justify-end md:hidden">
           <HiMenu
             onClick={handleNav}
-            className="text-4xl text-white hover:cursor-pointer"
+            className="text-4xl text-white hover:cursor-pointer fixed"
           />
         </div>
       </nav>
