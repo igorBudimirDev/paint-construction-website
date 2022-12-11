@@ -45,7 +45,7 @@ const Footer = () => {
               <img src={CustomIG} alt="" />
             </a>
 
-            <a target="blank" href="mile26a@gmail.com">
+            <a target="blank" href="mailto:mile26a@gmail.com">
               <img src={CustomMail} alt="" />
             </a>
           </div>
