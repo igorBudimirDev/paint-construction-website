@@ -55,3 +55,8 @@ body {
   flex-direction: column;
   align-items: center;
 }
+.nav-phone,
+.nav-insta,
+.nav-mail {
+  transition: 0.3s;
+}

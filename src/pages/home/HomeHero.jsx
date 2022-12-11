@@ -1,4 +1,3 @@
-import { useState } from "react";
 const HomeHero = () => {
   const scrollToSection = () => {
     const uslugeItem = document.getElementsByClassName("usluge");
@@ -10,7 +9,7 @@ const HomeHero = () => {
     kontaktItem[0].scrollIntoView();
   }
   return (
-    <div className="hero w-[100%] bg-[url('./assets/hero-bg-mobile.png')] bg-cover md:bg-[url('./assets/hero-background.png')]">
+    <div className="hero w-[100%] bg-[url('./assets/mob-bg.jpg')] bg-cover md:bg-[url('./assets/hero-background.png')]">
       <div className="hero__container h-screen flex justify-center items-center bg-overlay-color">
         <div className="hero__container__content flex flex-col justify-center items-center">
           <div className="hero__container__content--headings flex flex-col items-center">

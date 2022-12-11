@@ -2,6 +2,9 @@ import { Link } from "react-router-dom";
 import KosticLogo from "./assets/logo.png";
 import { HiMenu } from "react-icons/hi";
 import { useState, useEffect } from "react";
+import { AiFillInstagram } from "react-icons/ai";
+import { BsTelephoneFill } from "react-icons/bs";
+import { MdEmail } from "react-icons/md";
 const Navbar = () => {
   const bodyStyle = document.body.style;
   const [isLocked, setIsLocked] = useState(bodyStyle.overflow === "hidden");
@@ -26,6 +29,37 @@ const Navbar = () => {
             </span>
           </Link>
         </div>
+        <div className="nav__contact hidden lg:flex">
+          <div className="kontakt__content--phone w-[100%] flex flex-col px-10 items-center md:flex-row">
+            <a href="tel:+381632748948">
+              <BsTelephoneFill className="nav-phone text-xl text-main-green hover:text-white" />
+            </a>
+            <a href="tel:+381632748948"></a>
+            <span className="mt-2 md:mt-0 md:ml-5 md:text-sm font-light">
+              063/274-89-48
+            </span>
+          </div>
+          <div className="kontakt__content--phone p-2 flex flex-col items-center md:flex-row">
+            <a href="https://www.instagram.com/molerski_radovi_milenko_kostic/">
+              {" "}
+              <AiFillInstagram className="nav-insta text-xl text-[#fa7e1e] hover:text-white" />
+            </a>
+            <a href="https://www.instagram.com/molerski_radovi_milenko_kostic/">
+              {" "}
+            </a>
+            <span className="text-[1em] sm:text-2xl mt-2 md:mt-0 md:ml-5 md:text-sm font-light">
+              @molerski.radovi.kostic
+            </span>{" "}
+          </div>
+          <div className="kontakt__content--phone p-2 flex flex-col w-[100%] items-center md:flex-row">
+            <a href="mailto:mile26a@gmail.com">
+              <MdEmail className="nav-mail text-xl text-[#bb001b] hover:text-white" />
+            </a>
+            <span className="text-[1em] sm:text-2xl mt-2 md:mt-0 md:ml-5 md:text-sm font-light">
+              mile26a@gmail.com
+            </span>
+          </div>
+        </div>
         <div className="hidden md:flex">
           <Link className="mx-[7px] text-[15px] text-white" to="/">
             Početna
@@ -36,7 +70,6 @@ const Navbar = () => {
           <Link className="mx-[7px] text-[15px] text-white" to="/galerija">
             Galerija
           </Link>
-
         </div>
         <div className="w-[30%]block text-black-500 md:hidden">
           <HiMenu
