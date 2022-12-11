@@ -33,7 +33,10 @@ const Home_kontakt = () => {
               </a>
             </div>
             <div className="kontakt__content--phone p-2 flex flex-col w-[100%] border-2 border-black items-center md:flex-row">
-              <MdEmail className=" text-4xl" />
+              <a href="mailto:mile26a@gmail.com">
+                <MdEmail className=" text-4xl" />
+              </a>
+
               <a href="mailto:mile26a@gmail.com">
                 <span className="text-[1em] sm:text-2xl mt-2 md:mt-0 md:ml-5 md:text-4xl font-light">
                   mile26a@gmail.com
